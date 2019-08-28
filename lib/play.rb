@@ -42,8 +42,6 @@ def turn(board)
       turn(board)
     end
   end
-  end
-end
 
 def play(board)
   i = 0 
