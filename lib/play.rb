@@ -33,7 +33,8 @@ def turn(board)
   else
     turn(board)
     puts "Please enter 1-9"
-    
+    input = get.strip 
+    index = input_to_index(input)
   end
 end
 
